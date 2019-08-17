@@ -6,7 +6,7 @@
 #    By: ygarrot <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/07 11:09:55 by ygarrot           #+#    #+#              #
-#    Updated: 2019/03/10 08:43:33 by ygarrot          ###   ########.fr        #
+#    Updated: 2019/08/17 12:09:54 by ygarrot          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ NAME = libfts.a
 
 SRC_DIR = src
 OBJ_DIR = obj
+TEST_DIR = test
 
 SRC = ft_bzero.s \
 			ft_isalpha.s \
@@ -46,8 +47,11 @@ SRC = ft_bzero.s \
 			ft_strndup.s \
 			ft_puts.s
 
+TEST_EXEC = test.exe
+
 NASM_CMD = nasm -f macho64 --prefix _ -dOSX=1 -g
 CC_FLAGS = -Wall -Werror -Wextra -o
+INC_DIR = ./test/includes/
 
 SRCS = $(addprefix $(SRC_DIR)/, $(SRC))
 

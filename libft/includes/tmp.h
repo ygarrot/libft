@@ -6,7 +6,7 @@
 #    By: ygarrot <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/11 12:06:15 by ygarrot           #+#    #+#              #
-#    Updated: 2019/08/17 12:34:42 by ygarrot          ###   ########.fr        #
+/*   Updated: 2019/08/17 12:02:41 by ygarrot          ###   ########.fr       */
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,11 +42,22 @@ SRC += \
 
 SRC += \
 	   tern/ft_uint_isin.c \
+	   # tern/ft_abs.c 
 	   tern/ft_int_isin.c \
+	   # tern/ft_isalnum.c 
+	   # tern/ft_isalpha.c 
+	   # tern/ft_isascii.c 
+	   tern/ft_isbase.c \
+	   tern/ft_isdigit.c \
+	   # tern/ft_isin.c 
 	   tern/ft_ismax.c \
+	   # tern/ft_isupper.c
+	   # tern/ft_islower.c
 	   tern/ft_ismin.c \
+	   # tern/ft_isprint.c 
 	   tern/ft_strisin.c \
 	   tern/ft_strisin_tab.c \
+	   # tern/ft_min.c 
 	   tern/ft_lenchar_r.c \
 	   tern/ft_lenchar_l.c \
 	   tern/ft_isin_unicode.c
@@ -62,23 +73,34 @@ SRC += \
 
 SRC += \
 	   mem/ft_swap_int.c \
+	   mem/ft_memalloc.c \
 	   mem/ft_memccpy.c \
 	   mem/ft_memchr.c \
 	   mem/ft_memcmp.c \
+	   mem/ft_memcpy.c \
 	   mem/ft_memdel.c \
 	   mem/ft_memmove.c \
+	   mem/ft_bzero.c \
+	   mem/ft_memset.c \
 	   mem/ft_realloc.c
 
 SRC += \
+	   str/ft_tolower.c \
+	   str/ft_toupper.c \
+	   str/ft_strcat.c \
 	   str/ft_strchr.c \
 	   str/ft_strclr.c \
 	   str/ft_strcmp.c \
+	   str/ft_strcpy.c \
 	   str/ft_strdel.c \
+	   str/ft_strdup.c 
 	   str/ft_strequ.c \
 	   str/ft_striter.c \
 	   str/ft_striteri.c \
 	   str/ft_strjoin.c \
 	   str/ft_strlcat.c \
+	   # str/ft_strlen.c 
+	   str/ft_strnlen.c \
 	   str/ft_strmap.c \
 	   str/ft_strmap2.c \
 	   str/ft_strmapi.c \
@@ -101,13 +123,16 @@ SRC += \
 	   str/ft_capitalize.c \
 	   str/ft_putstr.c \
 	   str/ft_putstr_fd.c \
+	   str/ft_strndup.c \
 	   str/ft_addtofd.c \
+	   str/ft_strlento.c \
 	   str/ft_strinstr.c \
 	   str/ft_strprefix.c \
+	   str/ft_str_isdigit.c \
+	   # str/ft_strdupto.c 
 	   str/ft_str_tabjoin.c \
 	   str/ft_replace.c \
 	   str/ft_strlento_rev.c
-
 SRC += \
 	   get_next_line/get_next_line.c \
 	   get_next_line/get_next_line_b.c \

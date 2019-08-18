@@ -6,7 +6,7 @@
 #    By: ygarrot <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/11 12:06:15 by ygarrot           #+#    #+#              #
-#    Updated: 2019/08/17 12:34:42 by ygarrot          ###   ########.fr        #
+#    Updated: 2019/08/18 10:38:56 by ygarrot          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,7 @@ SRC += \
 	   to/ft_uimaxtoa_base.c
 
 SRC += \
+	   tern/ft_isin.c\
 	   tern/ft_uint_isin.c \
 	   tern/ft_int_isin.c \
 	   tern/ft_ismax.c \

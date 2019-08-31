@@ -6,7 +6,7 @@
 #    By: ygarrot <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/11 12:06:15 by ygarrot           #+#    #+#              #
-#    Updated: 2019/08/18 10:38:56 by ygarrot          ###   ########.fr        #
+#    Updated: 2019/08/31 10:57:47 by ygarrot          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -106,6 +106,7 @@ SRC += \
 	   str/ft_strinstr.c \
 	   str/ft_strprefix.c \
 	   str/ft_str_tabjoin.c \
+	   str/ft_str_isdigit.c \
 	   str/ft_replace.c \
 	   str/ft_strlento_rev.c
 
